@@ -13,7 +13,8 @@
 
 <body>
 
-  <nav class="navbar navbar-dark bg-primary">
+  <!--Navbar-->  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">TATACOA URC</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,14 +26,71 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="map.html">Map</a>
+            <a class="nav-link" href="cameras.html">Cámaras</a>
           </li>
-       
+          <li class="nav-item">
+            <a class="nav-link" href="sensors.html">Sensores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="map.html">Mapa</a>
+          </li>
         </ul> 
       </div>
     </div>
   </nav>
 
+  <div class="container"  style="padding-left: 0px; margin-left: 0px;">
+    <div class="row" style="padding-left: 0px;">
+      <div class="col-8" style="padding-left: 1px; width: 700px;" >
+        <img src="camera_image.png" style="border-style: solid; margin-left: 0px; width: 700px; height: 270px;">
+      </div>
+      <div class="col-4" style="border-style: solid; width: 450px;">
+        
+        <h2>Battery Status:</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-battery-full" viewBox="0 0 16 16">
+          <path d="M2 6h10v4H2V6z"/>
+          <path d="M2 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H2zm10 1a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h10zm4 3a1.5 1.5 0 0 1-1.5 1.5v-3A1.5 1.5 0 0 1 16 8z"/>
+        </svg>
+        <br>
+        <h3>100%</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12" style="border-style: solid; height: 300px; width: 1550px;">
+        <h2>Gráfica Sensor de temperatura</h2>
+        <table class="table table-bordered border-primary" >
+          <thead>
+            <tr>
+              <th scope="col">temperature</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>60°</td>
+            </tr>
+            <tr>
+              <td>60°</td>
+            </tr><tr>
+              <td>57°</td>
+            </tr><tr>
+              <td>59°</td>
+            </tr>
+          </tr><tr>
+            <td>59°</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!--
   <div class="container">
     <div class="row">
       <div class="col" style="align-items: flex-start;" >
@@ -141,7 +199,7 @@
       
     </div>
   </div>
-
+--->
 
   
 
